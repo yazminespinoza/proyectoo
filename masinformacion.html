@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> frameset muestra frames 1, 2 y 3</title>
+</head>
+<frameset cols="120,*">
+    <frame id="imagenes" name="imagenes" src="pagina3.html"/>
+    <frameset rows="100,*">
+        <frame id="titulo" name="titulo" src="pagina2.html"/>
+        <frame id="biografia" name="biografia" src="informacioon.html"/>
+</frameset>
+<noframes>
+    <body>su navegador no soporta frames</body>
+</noframes>
+</html>
